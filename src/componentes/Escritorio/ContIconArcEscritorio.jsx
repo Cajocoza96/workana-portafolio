@@ -502,9 +502,9 @@ export default function ContIconArcEscritorio({
     const draggingRef = useRef(false);
     const dragStartPos = useRef({ x: 0, y: 0, time: 0 });
 
-    const ICON_WIDTH = 75;
+    const ICON_WIDTH = 82;
     const ICON_HEIGHT = 72;
-    const MARGIN = 5;
+    const MARGIN = 6;
 
     const getContainerDimensions = () => {
         if (containerRef.current) {
@@ -887,7 +887,7 @@ export default function ContIconArcEscritorio({
                 />
             )}
 
-            <Rnd className="mx-1"
+            <Rnd className=""
                 {...rndCommon}
                 position={iconPositions.acercaDe}
                 onDragStop={handleDragStop("acercaDe")}
@@ -899,7 +899,7 @@ export default function ContIconArcEscritorio({
                 />
             </Rnd>
 
-            <Rnd className="mx-1"
+            <Rnd className=""
                 {...rndCommon}
                 position={iconPositions.contacto}
                 onDragStop={handleDragStop("contacto")}
@@ -911,7 +911,7 @@ export default function ContIconArcEscritorio({
                 />
             </Rnd>
 
-            <Rnd className="mx-1"
+            <Rnd className="ml-1"
                 {...rndCommon}
                 position={iconPositions.habilidades}
                 onDragStop={handleDragStop("habilidades")}
@@ -923,7 +923,7 @@ export default function ContIconArcEscritorio({
                 />
             </Rnd>
 
-            <Rnd className="mx-1"
+            <Rnd className=""
                 {...rndCommon}
                 position={iconPositions.proyectos}
                 onDragStop={handleDragStop("proyectos")}
