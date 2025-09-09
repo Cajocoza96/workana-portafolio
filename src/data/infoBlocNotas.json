@@ -1,0 +1,88 @@
+{
+    "acercaDe":{
+        "titulo": "Acerca de.txt",
+        "texto1": "Hola, soy Carlos José Cogollo Zapateiro, graduado en Ingeniería de Software en la Universidad de Cartagena.",
+        "texto2": "Soy un apasionado por el desarrollo web, actualmente enfocado en el Front-End.",
+        "texto3": "Tengo conocimientos básicos en HTML, CSS y JavaScript, y me encuentro en continuo aprendizaje de React para perfeccionar mis habilidades.",
+        "texto4": "Me inspira la evolución constante de la tecnología y el reto de diseñar interfaces intuitivas, dinámicas y atractivas. Siempre busco nuevas oportunidades para crecer profesionalmente y aportar valor con mi trabajo."
+    },
+
+    "contacto": {
+        "titulo": "Titulos.txt",
+        "texto1LinkTexto": "Responsive webdesign:",
+        "texto1LinkEnlace": "https://www.freecodecamp.org/certification/fcce7ff566b-926a-4a48-a80f-14225bdbf48a/responsive-web-design",
+        "texto2LinkTexto": "Javascript algorithms and data structures v8:",
+        "texto2LinkEnlace": "https://www.freecodecamp.org/certification/fcce7ff566b-926a-4a48-a80f-14225bdbf48a/javascript-algorithms-and-data-structures-v8",
+        "texto3LinkTexto": "front end development libraries",
+        "texto3LinkEnlace": "https://www.freecodecamp.org/certification/fcce7ff566b-926a-4a48-a80f-14225bdbf48a/front-end-development-libraries",
+        "texto4Linktexto": "Data visualization",
+        "texto4LinkEnlace": "https://www.freecodecamp.org/certification/fcce7ff566b-926a-4a48-a80f-14225bdbf48a/data-visualization",
+        "texto5Linktexto": "Relational database v8",
+        "texto5LinkEnlace": "https://www.freecodecamp.org/certification/fcce7ff566b-926a-4a48-a80f-14225bdbf48a/relational-database-v8"
+    },
+
+    "habilidades": {
+        "titulo": "Habilidades.txt",
+        "texto1": "Lenguajes de Programación: JavaScript (nivel básico)",
+        "texto2": "Desarrollo Front-End: HTML, CSS, React (aprendiendo lo básico)",
+        "texto3": "Control de Versiones: Git, GitHub",
+        "texto4": "Idiomas:",
+        "texto5": "Español (nativo)",
+        "texto6": "Inglés (básico alto - Nivel 4 English Does Work - SENA)"
+    }, 
+
+    "proyectos": {
+        "titulo": "Proyectos.txt",
+        "item1": {
+            "texto1": "Proyecto #1",
+            "texto2": "Nombre proyecto: TuClima360 – Aplicación Web del Clima",
+            "texto3": "Descripción: Aplicación web para consultar el clima en tiempo real.",
+            "texto4": "Funcionalidades: búsqueda de ciudades, datos climáticos en tiempo real, gráficas dinámicas, opciones de personalización y diseño responsivo.",
+            "texto5": "Frontend: React 19 + Vite, axios, chart.js, framer-motion, lottie-react, lucide-react, luxon, react-dom, react-icons, react-router-dom, swiper, tailwindcss, @tailwindcss/vite",
+            "texto6": "Backend: Node.js, Express, Axios, cors, dotenv",
+            "texto7": "APIs: GeoNames, Open-Meteo, TimeZoneDB",
+            "texto8": "Repositorios:", 
+            "texto9LinkTexto": "Frontend en GitHub:",
+            "texto9LinkEnlace": "https://github.com/Cajocoza96/tuclima360-frontend.git",
+            "texto10LinkTexto": "Backend en GitHub:",
+            "texto10LinkEnlace": "https://github.com/Cajocoza96/tuclima360-backend.git",
+            "texto11LinkTexto": "Vista en Vercel:",
+            "texto11LinkEnlace": "https://tuclima360-frontend.vercel.app"
+        },
+        "item2": {
+            "texto1": "Proyecto #2",
+            "texto2": "Nombre proyecto: Uno-eccomerce-react (En desarrollo)",
+            "texto3": "Descripción: Aplicación web de eCommerce con diseño responsivo.",
+            "texto4": "Funcionalidades: cabecera fija con mensaje promocional, menú hamburguesa, barra de búsqueda (en desarrollo), íconos interactivos (notificaciones, usuario, carrito en desarrollo), listado de productos con precios y descuentos, sección de entrega y contacto, y modo claro/oscuro",
+            "texto5": "Próximas mejoras: compras en línea y funciones dinámicas.",
+            "texto6": "Frontend: React 18, React Router DOM, React Icons, JavaScript, Swiper.js, CSS",
+            "texto7": "Datos: JSON locales",
+            "texto8LinkTexto": "Repositorio en GitHub:",
+            "texto8LinkEnlace": "https://github.com/Cajocoza96/uno-eccomerce-react.git",
+            "texto9LinkTexto": "Vista en GitHub Pages:",
+            "texto9LinkEnlace": "https://Cajocoza96.github.io/uno-eccomerce-react/"
+        },
+        "item3": {
+            "texto1": "Proyecto #3",
+            "texto2": "Nombre proyecto: Carlitos Anime",
+            "texto3": "Descripción: Carlitos Anime es una página web sencilla inspirada en el anime Jujutsu Kaisen. Presenta un diseño visual atractivo con un video de portada y una galería de imágenes que representan diferentes capítulos del anime.",
+            "texto4": "Funcionalidades: video de portada como introducción al sitio, galería de imágenes representando capítulos del anime y navegación básica en un entorno web estático.",
+            "texto5": "Frontend: HTML, CSS y JavaScript.",
+            "texto6LinkTexto": "Repositorio en GitHub:",
+            "texto6LinkEnlace": "https://github.com/Cajocoza96/carlitos-anime.git",
+            "texto7LinkTexto": "Vista en GitHub Pages:",
+            "texto7LinkEnlace": "https://cajocoza96.github.io/carlitos-anime/"
+        },
+        "item4": {
+            "texto1": "Proyecto #4",
+            "texto2": "Nombre proyecto: Cronómetro JK",
+            "texto3": "Descripción: Cronómetro JK es una aplicación web sencilla inspirada en el anime Jujutsu Kaisen. Incluye un temporizador interactivo acompañado de una imagen temática del anime.",
+            "texto4": "Funcionalidades: temporizador con control de reproducción, pausa y reinicio, interruptor de modo claro/oscuro para personalizar la apariencia y diseño visual con imagen alusiva al anime.",
+            "texto5": "Frontend: HTML, CSS y JavaScript.",
+            "texto6LinkTexto": "Repositorio en GitHub:",
+            "texto6LinkEnlace": "https://github.com/Cajocoza96/cronometro-jk.git",
+            "texto7LinkTexto": "Vista en GitHub Pages:",
+            "texto7LinkEnlace": "https://cajocoza96.github.io/cronometro-jk/"
+        } 
+    }
+}
