@@ -37,14 +37,36 @@ const ContenidoContacto = ({ data }) => (
     <>
         <div className="mb-2">
             <p className="text-black dark:text-white text-sm whitespace-pre-wrap">
-                {data.texto1}
+                {data.texto1LinkTexto}
             </p>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-5">
+            <a href={data.texto1LinkEnlace}
+                className="inline break-words text-sm 
+                        text-black dark:text-white whitespace-pre-wrap"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {data.texto1LinkEnlace}
+            </a>
+        </div>
+
+        <div className="mb-2">
             <p className="text-black dark:text-white text-sm whitespace-pre-wrap">
-                {data.texto2}
+                {data.texto2LinkTexto}
             </p>
+        </div>
+
+        <div className="mb-5">
+            <a href={data.texto2LinkEnlace}
+                className="inline break-words text-sm 
+                        text-black dark:text-white whitespace-pre-wrap"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {data.texto2LinkEnlace}
+            </a>
         </div>
 
         <div className="mb-2">
@@ -53,14 +75,14 @@ const ContenidoContacto = ({ data }) => (
             </p>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-5">
             <a href={data.texto3LinkEnlace}
-                className="inline break-words text-sm
+                className="inline break-words text-sm 
                         text-black dark:text-white whitespace-pre-wrap"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                {data.texto3LinkTextoEnlace}
+                {data.texto3LinkEnlace}
             </a>
         </div>
 
@@ -70,14 +92,31 @@ const ContenidoContacto = ({ data }) => (
             </p>
         </div>
 
-        <div className="mb-2">
+        <div className="mb-5">
             <a href={data.texto4LinkEnlace}
-                className="inline break-words text-sm
+                className="inline break-words text-sm 
                         text-black dark:text-white whitespace-pre-wrap"
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 {data.texto4LinkEnlace}
+            </a>
+        </div>
+
+        <div className="mb-2">
+            <p className="text-black dark:text-white text-sm whitespace-pre-wrap">
+                {data.texto5LinkTexto}
+            </p>
+        </div>
+
+        <div className="mb-5">
+            <a href={data.texto5LinkEnlace}
+                className="inline break-words text-sm 
+                        text-black dark:text-white whitespace-pre-wrap"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {data.texto5LinkEnlace}
             </a>
         </div>
     </>
